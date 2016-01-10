@@ -9,8 +9,6 @@ output:
 ## Loading and preprocessing the data
 
 ```{r}
-# Unzip and read the data
-unzip("activity.zip")
 activity <- read.csv("activity.csv")
 ```
 
